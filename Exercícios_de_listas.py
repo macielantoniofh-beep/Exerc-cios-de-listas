@@ -10,8 +10,8 @@ livros.append("Torto Arado")
 livros.append("Capitães da Areia")
 print(livros)
 # # 4- Insira o livro "Duna" na segunda posição da lista livros usando insert().
-# livros.insert(1,"Duna")
-# print(livros)
+livros.insert(1,"Duna")
+print(livros)
 # 5- Remova o livro "Silêncio dos inocentes" da lista usando remove(). Se ele não existir, exiba a mensagem "Livro não encontrado".
 livro_esp = "Silêncio dos inocentes"
 if livro_esp in livros:
